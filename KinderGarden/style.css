@@ -192,10 +192,12 @@ h4 {
 	grid-gap: 10px;
 	margin: 0 auto;
 	max-width: 100%;
+	justify-content: space-evenly;
+	gap: 30px;
+	column-gap: 190px;
 }
 
 .style {
-	text-align: center;
 	color: white;
 	font-size: 15px;
 	font-weight: bold;
@@ -245,7 +247,7 @@ h4 {
 	}
 
 	.classes {
-		height: 1400px;
+		height: 1500px;
 	}
 
 	.about {
@@ -284,7 +286,7 @@ h4 {
 @media only screen and (min-width:801px) and (max-width:1200px) {
 
 	.home {
-		height: 650px;
+		height: 700px;
 	}
 
 	.left {
