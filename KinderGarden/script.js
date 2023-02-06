@@ -8,13 +8,13 @@ nav.forEach((link) => {
     if (id != "classes") {
       window.scrollTo({
         left: 0,
-        top: position - 73,
+        top: position - 63,
       });
     }
     if (id == "classes") {
       window.scrollTo({
         left: 0,
-        top: position - 43,
+        top: position - 33,
       });
     }
   })
